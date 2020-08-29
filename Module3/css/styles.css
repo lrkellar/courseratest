@@ -1,0 +1,71 @@
+header>nav>div{
+	float: left;
+	background-color: #ddc703;
+	}
+body{
+	font-size:20px;
+	background-color: #257431;
+}
+
+#brand{
+	font-size: 24px;
+	color:#000000;
+}
+
+#PageTitle{
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+h3{
+	position: relative;
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+}
+
+section{
+	position: absolute;
+	background-color: #02409c;
+	border-color:  #257431;
+	border-style: solid;
+	border-left: 15px;
+	margin-bottom: 25px;
+}
+
+button{
+	overflow:visible;
+}
+.alpha {
+	background-color: #FFF;
+}
+
+.row{
+	margin-right:0;
+	margin-left:0;
+}
+
+
+#nav-list {
+
+	background-color: #25a0d0;
+}
+
+#up{
+	text-align: center;
+	font-size: 1.5em;
+	color:black;
+	width: 100%;
+	text-decoration: underline;
+
+}
+#spinner{
+	
+		color: #000;
+	text-align: center;
+
+}
+
+.btn {
+	
+}
