@@ -25,6 +25,34 @@
 	// xxxx.xxxx = helloSpeaker;
 	//window.helloSpeaker = helloSpeaker;
 
+//})(window);
+
+// Code attempt 1
+// var helloSpeaker = {
+// 			function speak (name) {
+// 			  console.log(speakWord + " " + name)
+// 			};
+
+// 		var speakWord = "Hello";
+// 			window.helloSpeaker = helloSpeaker;
+
+// }(window);
+
+// Worling Code for Assignment
+// var speakWord = "Hello";
+// (function(window){
+// 		var helloSpeaker = 
+// 			function speak (name) {
+// 			  console.log(speakWord + " " + name)
+// 			};
+		
+		
+// 			window.helloSpeaker = helloSpeaker;
+
+// })(window);
+
+// Correct Answer
+
 (function (window) {
 	var speakWord = "Hello";
 	var helloSpeaker = {};

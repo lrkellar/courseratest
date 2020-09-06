@@ -28,13 +28,44 @@
 //window.byeSpeaker = byeSpeaker;
 //})(window);
 
+// var speakWord = ("Good Bye");
+// (function byeSpeaker (window){
+// 		function speak (name) {
+// 		console.log(speakWord + " " + name)
+// 		};
+	
+	
+// 	window.byeSpeaker = byeSpeaker;
+// })(window);
+
+// original functioning code
+// (function(window){
+// 		var byeSpeaker = 
+// 			function speak (name) {
+// 			  console.log(speakWord + " " + name)
+// 			};
+		
+// 		var speakWord = "Good bye";
+// 			window.byeSpeaker = byeSpeaker;
+
+// })(window);
+
 
 
 (function (window) {
 	var speakWord = "Good Bye";
 	var byeSpeaker = {};
-	byeSpeaker.speak = function (name){
+	byeSpeaker.speak = function (name) {
 		console.log(speakWord + " " + name)
 	}
 	window.byeSpeaker = byeSpeaker;
 })(window);
+
+// var speakWord = "Hello";
+// (function (window) {
+// 	var helloSpeaker = {};
+// 	helloSpeaker.speak = function (name) {
+// 		console.log(speakWord + " " + name)
+// 	} 
+// 	window.helloSpeaker = helloSpeaker;
+// })(window);
